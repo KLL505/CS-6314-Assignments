@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    gap: 10px;         
+}
+
+.box {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    width: 100px;
+    height: 150px;
+    box-sizing: content-box;
+    
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    padding: 10px; 
+    flex-shrink: 0; 
+}
+
+
+.box:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+
+.box-f {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,48 @@
+
+Exercise 1: Personal Portfolio Webpage
+
+Due Date: Tuesday, Sep 1st 2026 11:59 PM
+Objective
+
+Create a simple portfolio webpage using HTML. The goal is to practice semantic HTML, structuring content, and working with common elements like navigation, lists, forms, and media. Do not worry about styling. You will style your page in the next exercise.
+Minimum Requirements
+
+Your portfolio page should contain the following at the minimum. Feel free to additional contents, and/or html elements.
+
+    Header & Navigation
+        A <header> with the page title
+        A <nav> with links to About, Projects, and Contact
+    About Section
+        A short self-introduction inside a <section>
+        A <figure> with a placeholder image (https://via.placeholder.com/150) and a <figcaption>
+    Projects Section
+        Your projects (at least two), each in an <article>
+        Each project must at least include:
+            A heading (title)
+            A descriptive paragraph
+            A link (can be #) labeled â€œLearn Moreâ€
+            An unordered list (<ul>) of at least three features
+    Contact Section
+        A <form> with:
+            Name (text input, required)
+            Email (email input, required)
+            Message (textarea, required)
+            Submit button
+        All fields should have <label> elements
+    Footer
+        A <footer> with copyright text
+        At least one social media or external link
+
+Implementation Details
+
+    <body> should contain <header>, <main>, <aside>, and <footer>
+    About, Projects, and Contact should be under <main>
+    Include some meaningful content for <aside>
+    Ensure all images include alt text
+    Although not a requirement, deploy your portfolio webpage. There are plenty of free services (Github, Netlify, etc.)
+
+Deliverable
+
+Create a folder with your netid as the name. Place completed file portfolio.html in the folder. Zip the folder and submit it on elearning. Note the folder should not contain any unrelated files, and the name of the folder should be exactly as specified. Failing to follow the submission procedure will result in loss of points.
+CS 6314: Web Programming Languages
+Fall 2026
