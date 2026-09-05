@@ -19,24 +19,21 @@ body, html {
     height: 100px;
     box-sizing: content-box;
     flex-shrink: 0; 
+    border-top: 1px solid #687291;
+    text-align: center;
 }
 
-.box-a, .box-c, .box-e {
+.box:nth-child(odd) {
     background-color: #dfe1e7;
-    border-top: 1px solid #687291;
-    text-align: center;
 }
 
-.box-b, .box-d {
+.box:nth-child(even)  {
     background-color: #eeeff2;
-    border-top: 1px solid #687291;
-    text-align: center;
 }
 
-.box-f {
+#f {
     background-color: #687291;
     border: 4px solid black;
-    
     display: flex;
     justify-content: center;
     align-items: center; 

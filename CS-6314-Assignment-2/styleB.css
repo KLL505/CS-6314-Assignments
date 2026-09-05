@@ -16,13 +16,11 @@ body, html {
     width: 100px;
     height: 150px;
     box-sizing: content-box;
-    
     border-left: 10px dotted #D0D0FF;
     background-color: #eeeff2;
     padding: 10px; 
     flex-shrink: 0; 
 }
-
 
 .box:hover {
     cursor: pointer;
@@ -30,8 +28,7 @@ body, html {
     color: goldenrod;
 }
 
-
-.box-f {
+#f {
     position: fixed;
     bottom: 0;
     right: 0;
